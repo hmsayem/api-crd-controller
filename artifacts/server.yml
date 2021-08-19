@@ -1,0 +1,7 @@
+apiVersion: hmsayem.com/v1
+kind: Server
+metadata:
+  name: sample-server
+spec:
+  statefulSetName: server-statefulset
+  replicas: 1
